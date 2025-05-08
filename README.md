@@ -1,2 +1,2 @@
-# Ordene-um-vetor-de-n-meros-inteiros-em-ordem-crescente.
-De fato não é o jeito certo de fazer mas funciona e não funciona
+# Ordene-um-vetor-de-numeros-inteiros-em-ordem-crescente.
+De fato não é o melhor jeito de se fazer mas funciona mostrando o resultado de um jeito, e de outro (mais convencional talvez) não funciona
