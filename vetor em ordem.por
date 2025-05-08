@@ -2,7 +2,7 @@ programa {
   inclua biblioteca Util
   funcao inicio() {
     
-     const inteiro tam = 5
+	const inteiro tam = 5
 	inteiro vetor[tam], menor
 		
 	para(inteiro i = 0; i < tam; i++){
@@ -11,28 +11,28 @@ programa {
           }
 	para(inteiro i = 0; i < tam; i++){ 
 		se(vetor[0] > vetor[i]){
-            menor = vetor[i]
-            vetor[i] = vetor[0]
-		  vetor[0] = menor
+	           	menor = vetor[i]
+	          	vetor[i] = vetor[0]
+			vetor[0] = menor
 		}
 		se(vetor[1] != vetor[0] e vetor[1] >= vetor[i]){
-            menor = vetor[i]
-            vetor[i] = vetor[1]
-		  vetor[1] = menor
-	       } 
-          se(vetor[2] != vetor[0] e vetor[2] != vetor[1] e vetor[2] >= vetor[i]){
-            menor = vetor[i]
-            vetor[i] = vetor[2]
-            vetor[2] = menor
-            }
-          se(vetor[3] != vetor[0] e vetor[3] != vetor[1] e vetor[3] != vetor[2] e vetor[3] >= vetor[i]){
-            menor = vetor[i]
-            vetor[i] = vetor[3]
-            vetor[3] = menor
-            }
-           escreva(i, " - ",vetor[i],"\n") //ASSIM NÃO DA CERTO
+		        menor = vetor[i]
+		        vetor[i] = vetor[1]
+			vetor[1] = menor
+	        } 
+         	se(vetor[2] != vetor[0] e vetor[2] != vetor[1] e vetor[2] >= vetor[i]){
+		        menor = vetor[i]
+		        vetor[i] = vetor[2]
+		        vetor[2] = menor
+                }
+        	se(vetor[3] != vetor[0] e vetor[3] != vetor[1] e vetor[3] != vetor[2] e vetor[3] >= vetor[i]){
+		        menor = vetor[i]
+		        vetor[i] = vetor[3]
+		        vetor[3] = menor
+            	}
+          	 escreva(i, " - ",vetor[i],"\n") //ASSIM NÃO DA CERTO
            }
-		 escreva(vetor[0]," ",vetor[1]," ",vetor[2]," ",vetor[3]," ",vetor[4]) //ASSIM DA MUITO CERTO
+	   escreva(vetor[0]," ",vetor[1]," ",vetor[2]," ",vetor[3]," ",vetor[4]) //ASSIM DA MUITO CERTO
   }
 }
 /* $$$ Portugol Studio $$$ 
